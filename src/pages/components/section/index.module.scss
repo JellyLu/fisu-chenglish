@@ -1,0 +1,15 @@
+.section {
+  margin: 20px;
+
+  .title {
+    color: var(--yellow);
+  }
+
+  .divider {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed var(--white);
+    opacity: 0.5;
+    margin: 16px auto;
+  }
+}

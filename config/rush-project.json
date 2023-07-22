@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush-project.schema.json",
+  "disableBuildCacheForProject": false,
+  "operationSettings": [
+    {
+      "operationName": "build",
+      "outputFolderNames": ["build"]
+    },
+    {
+      "operationName": "server-deploy",
+      "outputFolderNames": ["build"]
+    }
+  ]
+}

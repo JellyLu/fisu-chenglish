@@ -1,0 +1,24 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+
+  .title {
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .subtitle {
+    margin-top: 20px;
+    font-size: 44px;
+    font-weight: bold;
+  }
+
+  .list {
+    width: 100%;
+    flex-grow: 1;
+    margin-top: 20px;
+    text-align: left;
+  }
+}

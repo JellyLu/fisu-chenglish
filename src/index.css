@@ -1,0 +1,94 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--white);
+  background-color: var(--primary-color);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: rgb(23, 52,120);
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+:root {
+  --primary-color: rgb(23, 52,120);
+  --secondary-clor: rgb(227, 119, 57);
+  --red: rgb(219, 57, 49);
+  --black: rgb(34, 31, 32);
+  --yellow: rgb(239, 178, 67);
+  --blue: rgb(56, 128, 192);
+  --dark: #222222;
+  --white: #FFFFFF;
+  --background-color-1: #F5F5F5;
+  --background-color-2: #FFFFFF;
+  --background-color-3: #EEEEEE;
+  --background-color-4: #373A50;
+  --background-color-5: #D3AF73;
+  --background-color-6: #F8F8F8;
+  --background-color-7: #E6E6E6;
+  --background-color-8: #F1F1F1;
+  --background-color-9: #2E2E2E;
+  --background-color-10: #F7F7F7;
+  --background-color-11: #DCDCDC;
+  --background-color-12: rgba(0, 0, 0, 0.2);
+  --border-color: rgba(0, 0, 0, 0.05);
+  --border-color-2: rgba(0, 0, 0, 0.2);
+  --border-color-3: #F1F1F1;
+  --border-color-4: #E4E4E4;
+  --border-color-5: #F2F2F2;
+  --border-white: #FFFFFF;
+  --border-light-gray: #808080;
+  --text-color-lighten: #FFFFFF;
+  --text-color-light: #B3B3B3; /* #000 30% */
+  --text-color-dark: rgba(0, 0, 0, 0.5); /* #000 50% */
+  --text-color-dark1: rgba(0, 0, 0, 0.65); /* #000 65% */
+  --text-color-dark2: #333333; /* 灰阶/Grey - 2 */
+  --text-color-darken: #2E2E2E; /* #000 80% */
+  --text-color-yellow: rgba(255, 255, 255, 0.6);
+  --text-color-orange: #FF9500;
+}

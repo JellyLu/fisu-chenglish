@@ -1,0 +1,15 @@
+.sentence {
+  padding: 20px;
+
+  .row {
+    position: relative;
+    padding-left: 30px;
+
+    .index {
+      position: absolute;
+      left: -30px;
+      text-align: right;
+    }
+  }
+
+}
