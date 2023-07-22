@@ -1,8 +1,23 @@
 .section {
-  margin: 20px;
+  margin: 40px 20px;
 
-  .title {
+  .header {
+    display: flex;
+    justify-content: space-between;
     color: var(--yellow);
+
+    .title {
+
+    }
+
+    .icon {
+      width: 40px;
+      text-align: center;
+    }
+
+    .collapsed {
+      transform: rotate(180deg);
+    }
   }
 
   .divider {
@@ -10,6 +25,6 @@
     height: 1px;
     border-bottom: 1px dashed var(--white);
     opacity: 0.5;
-    margin: 16px auto;
+    margin: 30px auto;
   }
 }
