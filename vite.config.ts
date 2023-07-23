@@ -4,7 +4,7 @@ import legacy from "@vitejs/plugin-legacy";
 import pxtorem from "postcss-pxtorem";
 
 const getBaseURL = () => {
-    return "/chenglish/";
+    return "/";
 };
 
 // https://vitejs.dev/config/
