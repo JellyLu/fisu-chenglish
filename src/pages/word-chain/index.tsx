@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { sendSingleMsg } from "../../api/deep-seek";
+import deepSeekApi from "../../api/deep-seek";
 
 const WordChain = () => {
   const [msg, setMsg] = useState("");
   const systemMsg = "You are a helpful assistant.";
 
   useEffect(() => {
-    sendSingleMsg(systemMsg)
+    deepSeekApi.sendSingleMsg(systemMsg)
       .then((res) => {
         setMsg(res);
       })

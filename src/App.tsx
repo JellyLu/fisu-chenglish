@@ -2,6 +2,7 @@ import './App.css'
 import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./pages/home";
 import loadable from "@loadable/component";
+import wordChainGame from "./pages/word-chain/WordChainGame.tsx";
 
 function dynamic(impoter: () => any) {
   return loadable(impoter, {
@@ -14,7 +15,7 @@ const Home = dynamic(
 );
 
 const WordChain = dynamic(
-  () => import(/* webpackChunkName: "home" */ "./pages/word-chain")
+  () => import(/* webpackChunkName: "home" */ "./pages/word-chain/WordChainGame")
 );
 
 const App = () => {
